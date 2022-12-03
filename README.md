@@ -6,7 +6,7 @@ A custom website boilerplate to start coding a website/app instantly.
 
 *Note: Make sure you have a [Node.js](https://nodejs.org/en/) installed. To check, run `node -v` in your terminal*
 
-1. First clone this git repository to your local device
+1. Click `Use this template` or clone into a local directory
 ```
 git clone https://github.com/Pilner/Website-Boilerplate
 ```
@@ -14,7 +14,11 @@ git clone https://github.com/Pilner/Website-Boilerplate
 ```
 npm install
 ```
-3. Run the program
+3. After cloning, add this into the `.gitignore` file
+```
+.env
+```
+4. Run the program
 ```
 npm start
 ```
