@@ -5,7 +5,7 @@ import express from "express";
 dotenv.config();
 
 const	app 	= express(),
-		port	= 3000 || process.env.PORT;
+		port	= process.env.PORT || 3000;
 
 
 app.use(express.urlencoded({extended: true}));
